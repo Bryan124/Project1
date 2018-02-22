@@ -102,8 +102,8 @@ int main(){
 				}
 				auto finish = std::chrono::high_resolution_clock::now();
 				std::chrono::duration<float> elapsed = finish - start;
-			    gotoXY(21, 11);
-				cout << "Tiempo: " << elapsed.count();
+			    /*gotoXY(21, 11);
+				cout << "Tiempo: " << elapsed.count();*/
 				gotoXY(21, 13);
 				//81-90
 				if (elapsed.count() > 1780 && d10 == true) {
